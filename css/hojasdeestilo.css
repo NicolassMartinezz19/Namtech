@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #011B3B;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    width: 100%; 
+    margin: 0;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 300px;
+    float: left;
+}
+
+header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+nav {
+    background-color: #791E79;
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+main {
+    background-color: #011B3B;
+    width: 100%;
+    float: left;
+    padding: 40px;
+    color: #FFFFFF;
+    min-height: 800px;
+}
+
+main h1 {
+    font-family: Constantia, "Lucida Bright", serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+main p {
+    padding-top: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Cambria, Georgia, serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+section {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+article {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #791E79;
+    margin-bottom: 15px;
+}
+
+table {
+    margin: 40px auto;
+    border: 1px solid #FFFFFF;
+    width: 90%;
+    max-width: 1000px;
+}
+
+footer {
+    background-color: #791E79;
+    width: 100%;
+    height: 60px;
+    float: left;
+    clear: both;
+}
+
+footer h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
