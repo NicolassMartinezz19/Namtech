@@ -16,22 +16,20 @@ body {
 
 #contenedor {
     width: 100%; 
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     overflow: hidden;
-    background-color: #011B3B;
-    box-shadow: 0 0 50px rgba(0,0,0,0.5);
 }
 
 header {
     width: 100%;
-    height: auto;
+    height: 400;
     float: left;
 }
 
 header img {
     width: 100%;
-    height: auto;
+    height: 400px;
+    object-fit: cover;
     display: block;
 }
 
@@ -85,14 +83,29 @@ main h2 {
     font-weight: normal;
 }
 
+main h3 {
+	font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+main h4{
+	font-family: Constantia, "Lucida Bright", serif;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
 main p {
-    padding-top: 20px;
-    max-width: 900px;
-    margin: 0;
+    padding-top: 10px;
+    max-width: auto;
+    margin: auto;
     text-align: left;
     font-family: Cambria, Georgia, serif;
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 section {
@@ -117,36 +130,9 @@ article img {
 
 table {
     margin: 40px auto;
-    border-collapse: collapse;
+    border: 1px solid #FFFFFF;
     width: 90%;
     max-width: 1000px;
-    background-color: rgba(0,0,0,0.3);
-    border: 2px solid #791E79;
-}
-
-table th {
-    padding: 25px;
-    text-align: left;
-    color: #FFFFFF;
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    border: 1px solid #791E79;
-    line-height: 1.4;
-}
-
-table td {
-    width: 150px;
-    padding: 0;
-    border: 1px solid #791E79;
-    vertical-align: middle;
-    background-color: #000;
-}
-
-table td img {
-    width: 150px;
-    height: 150px;
-    display: block;
-    object-fit: cover;
 }
 
 footer {
