@@ -22,13 +22,13 @@ body {
 
 header {
     width: 100%;
-    height: auto;
+    height: 0;
     float: left;
 }
 
 header img {
     width: 100%;
-    height: auto;
+    height: 0;
     object-fit: cover;
     display: block;
 }
